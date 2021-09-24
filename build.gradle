@@ -11,9 +11,6 @@ dependencies {
     testImplementation "junit:junit:4.12"
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
 task run(type: JavaExec) {
     main = 'RunEdgeConvert'
     classpath = sourceSets.main.runtimeClasspath
